@@ -2,7 +2,7 @@ import { Button, Text } from '@react-navigation/elements';
 import { StyleSheet, View } from 'react-native';
 
 export function Home() {
-  
+  const BASE_URL = "https://carhire-one.vercel.app/";
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>

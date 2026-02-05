@@ -83,7 +83,6 @@ router.get("/", async (req, res) => {
     const data = users.map((u) => ({
       _id: u._id,
       firstName: u.firstName,
-      firstName: u.firstName,
       lastName: u.lastName,
           }));
 
